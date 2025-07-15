@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'http://127.0.0.1:3000/HotelManagement/v1',
+    baseURL: 'https://hoteles-backend-xla7.onrender.com/HotelManagement/v1',
     timeout: 5000
 });
 

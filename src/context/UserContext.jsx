@@ -32,7 +32,7 @@ export const UserProvider = ({ children }) => {
         }
 
         axios
-            .get('http://127.0.0.1:3000/HotelManagement/v1/user/profile', {
+            .get('https://hoteles-backend-xla7.onrender.com/HotelManagement/v1/user/profile', {
                 headers: { 'x-token': token }
             })
             .then((res) => {
