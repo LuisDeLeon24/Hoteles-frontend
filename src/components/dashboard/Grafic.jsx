@@ -8,7 +8,7 @@ import {
 import { Radar, PolarArea, Pie, Line } from 'react-chartjs-2';
 import { Box, Text, VStack, useColorModeValue, Heading, Flex, Select, Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import { useStats } from '../../shared/hooks/useStats';
-import  GlobeD3 from '../stats/worldTour';
+import  GlobeD3 from '../stats/WorldTour';
 
 ChartJS.register(
     LineElement, PointElement, CategoryScale, LinearScale,
