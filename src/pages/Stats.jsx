@@ -10,7 +10,7 @@ import { useEvents } from '../shared/hooks/useEvents';
 import { useStats } from '../shared/hooks/useStats';
 import Chatbot from '../components/dashboard/ChatBot';
 import DashboardCharts from '../components/dashboard/Grafic';
-import MapaInteractivo from '../components/stats/map';
+import MapaInteractivo from '../components/stats/Map';
 import TreemapChart from '../components/stats/TreeMap';
 import SatisfactionMatrix from '../components/stats/MatrixChart';
 
